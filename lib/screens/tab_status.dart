@@ -44,6 +44,7 @@ class TabStatus extends StatelessWidget {
           title: Text('R2-D2'),
           subtitle: Text('Hace 2 horas'),
         ),
+        const Divider(),
         const ListTile(
           leading: CircleAvatar(
             backgroundColor: Colors.orange,
@@ -57,19 +58,20 @@ class TabStatus extends StatelessWidget {
           children: [
             ListTile(
               leading: CircleAvatar(
-                backgroundColor: Colors.red,
-                child: Icon(Icons.person, color: Colors.white),
+              backgroundColor: Colors.red,
+              backgroundImage: AssetImage('assets/images/chewbacca.jpeg'),
               ),
-              title: Text('Contacto 3'),
-              subtitle: Text('Hace 1 día'),
+              title: Text('Chewbacca'),
+              subtitle: Text('Hace 66 horas'),
             ),
+            Divider(),
             ListTile(
               leading: CircleAvatar(
-                backgroundColor: Colors.purple,
-                child: Icon(Icons.person, color: Colors.white),
+              backgroundColor: Colors.green,
+              backgroundImage: AssetImage('assets/images/han_solo.jpeg'),
               ),
-              title: Text('Contacto 4'),
-              subtitle: Text('Hace 2 días'),
+              title: Text('Han Solo'),
+              subtitle: Text('Hace 10 horas'),
             ),
           ],
         ),

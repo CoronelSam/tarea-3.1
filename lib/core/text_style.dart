@@ -5,4 +5,9 @@ class TextStyles{
     color: Colors.white,
     fontWeight: FontWeight.bold
   );
+  static const TextStyle nameText = TextStyle(
+    color: Colors.black87,
+    fontWeight: FontWeight.bold,
+    fontSize: 16
+  );
 }
