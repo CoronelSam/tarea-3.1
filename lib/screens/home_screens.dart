@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:tarea_3/core/text_style.dart';
-import 'package:tarea_3/screens/drawer_menu.dart';
 import 'package:tarea_3/screens/tab_chats.dart';
 import 'package:tarea_3/screens/tab_status.dart';
 import 'package:tarea_3/screens/tab_calls.dart';
@@ -31,7 +30,6 @@ class _MyHomePageState extends State<MyHomePage> {
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        drawer: const DrawerMenu(),
         appBar: AppBar(
           backgroundColor: const Color.fromARGB(255, 22, 163, 27),
           iconTheme: const IconThemeData(color: Colors.white),
